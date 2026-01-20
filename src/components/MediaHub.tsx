@@ -2,21 +2,26 @@ import React from 'react'
 
 export const MediaHub: React.FC = () => {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <div className="mb-6">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Media Hub</h1>
-        <p className="text-gray-600">Photo sharing and content curation</p>
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">Communicate</h1>
+        <p className="text-gray-600">Photo sharing, announcements, and content curation</p>
       </div>
 
       <div className="card">
-        <div className="text-center py-12">
-          <span className="text-6xl mb-4 block">📸</span>
-          <h3 className="text-xl font-semibold text-gray-900 mb-2">Media Hub Coming Soon</h3>
-          <p className="text-gray-600 mb-6">
-            This section will handle photo sharing and "Slay-of-the-Day" curation
+        <div className="text-center py-16">
+          <div className="w-24 h-24 rounded-full bg-pink-100 flex items-center justify-center mx-auto mb-6">
+            <span className="text-5xl">📧</span>
+          </div>
+
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Communication Hub Coming Soon</h3>
+          <p className="text-gray-600 mb-8 max-w-md mx-auto">
+            This section will handle photo sharing, announcements, and content curation
+            to keep everyone connected and informed about your special day.
           </p>
+
           <button className="btn-primary">
-            Create Photo Gallery
+            Create Communication Channel
           </button>
         </div>
       </div>
